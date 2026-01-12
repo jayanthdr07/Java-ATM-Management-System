@@ -47,11 +47,64 @@ Java-ATM-Management-System/
 └── README.md
 
 
+## 📸 Sample Output
 
-Account No	Name	PIN	Balance
-1001	Jayanth	1010	₹10,000
-1002	Arjun	2020	₹15,000
-1003	Rahul	3030	₹20,000
+Below is a sample run of the Java ATM Management System, demonstrating card operation, OTP verification, PIN change, and deposit transaction.
+
+🔹 ATM Home Screen
+=================================================
+           WELCOME TO INDIAN BANK ATM
+=================================================
+1. CARD OPERATION
+2. CARDLESS OPERATION
+0. EXIT
+ENTER CHOICE: 1
+
+🔐 Card Authentication
+ENTER ACCOUNT NUMBER: 1001
+ENTER PIN: 1010
+
+📋 Transaction Menu
+1. BALANCE ENQUIRY
+2. WITHDRAW
+3. DEPOSIT
+4. PIN CHANGE
+0. BACK
+ENTER CHOICE: 4
+
+🔑 OTP Verification & PIN Change
+OTP SENT TO REGISTERED MOBILE: 922275
+ENTER OTP: 922275
+ENTER NEW PIN: 9945
+PIN CHANGED SUCCESSFULLY
+
+💰 Deposit Operation
+ENTER CHOICE: 3
+ENTER AMOUNT TO DEPOSIT: 50000
+DEPOSIT SUCCESSFUL
+
+🔄 Return to Main Menu
+ENTER CHOICE: 0
+
+=================================================
+           WELCOME TO INDIAN BANK ATM
+=================================================
+1. CARD OPERATION
+2. CARDLESS OPERATION
+0. EXIT
+ENTER CHOICE:
+
+✨ Highlights Shown in Output
+
+🔐 Secure PIN-based login
+
+📲 OTP authentication for sensitive actions
+
+🔄 Menu-driven navigation
+
+💰 Real-time balance updates
+
+🧩 Clean and user-friendly console UI
 
 ## 🔐 Security Features
 
